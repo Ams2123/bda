@@ -1,0 +1,154 @@
+1. Differentiate between data, information, knowledge, and decision using one example.
+2. What were the major limitations of file-based data processing?
+3. Why are relational databases still useful?
+4. What factors caused the digital data explosion?
+5. Differentiate between human-generated and machine-generated data.
+6. Explain vertical scaling and horizontal scaling.
+7. Why does hardware failure become an important issue in a large computer cluster?
+8. Define parallel processing.
+9. Why is it incorrect to define Big Data only in terms of data size?
+10. Can the same dataset be considered ordinary data in one environment and Big Data in another? Justify your answer.
+11. Define the Five Vs of Big Data.
+12. Why is volume not merely a storage problem?
+13. Differentiate batch processing and stream processing with examples.
+14. Explain velocity using a digital-payment application.
+15. Differentiate structured, semi-structured, and unstructured data.
+16. Why is JSON generally classified as semi-structured data?
+17. Explain veracity using a sensor-based application.
+18. What is meant by the expression “Garbage In, Garbage Out”?
+19. Explain why value is considered the final objective of Big Data Analytics.
+20. Describe the Five Vs using a smart-city application.
+21. Can a relatively small dataset exhibit Big Data characteristics? Justify your answer.
+22. Explain any three additional characteristics sometimes associated with Big Data.
+23. Explain the major storage challenges in Big Data.
+24. Why is horizontal scaling preferred in many Big Data systems?
+25. What is data integration? Give one example.
+26. Explain the importance of data cleaning.
+27. Why is fault tolerance essential in distributed systems?
+28. Differentiate security and privacy.
+29. Define data governance.
+30. What is latency? Why is it important?
+31. Explain any five opportunities created by Big Data.
+32. Describe the applications of Big Data in healthcare.
+33. Explain how Big Data is used in banking and finance.
+34. Discuss Big Data applications in transportation and logistics.
+35. Explain predictive maintenance in manufacturing.
+36. Describe the role of Big Data in smart cities.
+37. Explain how Big Data Analytics supports cybersecurity.
+38. Define Apache Hadoop.
+39. Why was Hadoop developed?
+40. What is a computer cluster?
+41. Explain the major characteristics of Hadoop.
+42. What is data locality? Why is it important?
+43. What is commodity hardware?
+44. Explain the four core Hadoop components.
+45. Differentiate HDFS, YARN, and MapReduce.
+46. Define the Hadoop ecosystem.
+47. Explain the roles of Hive, Pig, HBase, Sqoop, and Flume.
+48. What services are provided by ZooKeeper and Oozie?
+49. Explain the role of Spark and Kafka in modern Big Data systems.
+50. Draw and explain the high-level Hadoop architecture.
+51. Differentiate master and worker nodes.
+52. Explain the basic Hadoop data-processing flow.
+53. List the advantages and limitations of Hadoop.
+54. When should Hadoop be used?
+55. Differentiate standalone, pseudo-distributed, and fully distributed modes.
+56. Is Hadoop a database? Justify your answer.
+57. Is Hadoop free software? Explain.
+58. Define HDFS.
+59. Why is a distributed file system required?
+60. Explain the major design goals of HDFS.
+61. Draw and explain the HDFS architecture.
+62. Explain the role of the NameNode.
+63. Explain the role of a DataNode.
+64. Differentiate NameNode and DataNode.
+65. What is an HDFS block?
+66. Why does HDFS use large block sizes?
+67. Explain block replication.
+68. What is the replication factor?
+69. Explain heartbeat messages and block reports.
+70. What is HDFS metadata?
+71. Differentiate FsImage and EditLog.
+72. Explain the role of the Secondary NameNode.
+73. Why is the Secondary NameNode not considered a direct backup of the NameNode?
+74. Explain the HDFS file-write operation.
+75. Explain the HDFS file-read operation.
+76. How does HDFS recover from DataNode failure?
+77. What is rack awareness?
+78. What is the HDFS small-files problem?
+79. Differentiate a Secondary NameNode and a standby NameNode.
+80. Explain why HDFS is suitable for high-throughput workloads.
+81. List the applications for which HDFS may not be suitable.
+82. Explain pseudo-distributed Hadoop mode.
+83. What software components are required for a basic Hadoop installation?
+84. Why is Java required for Hadoop?
+85. Why is SSH configured in a pseudo-distributed installation?
+86. Explain the purpose of JAVA HOME and HADOOP HOME.
+87. Explain the role of hadoop-env.sh.
+88. What is configured in core-site.xml?
+89. What is configured in hdfs-site.xml?
+90. Explain the purpose of mapred-site.xml.
+91. Explain the purpose of yarn-site.xml.
+92. What information is stored in the workers file?
+93. What is NameNode formatting?
+94. Why should the NameNode not be formatted before every startup?
+95. List the important Hadoop daemons.
+96. What information is displayed by the jps command?
+97. Differentiate the local file system and HDFS.
+98. Explain the -put and -get HDFS operations.
+99. Write commands to create, list, and remove an HDFS directory.
+100. Explain how file permissions are managed in HDFS.
+101. What information is provided by hdfs dfsadmin -report?
+102. What is HDFS safe mode?
+103. Explain the common causes of Hadoop daemon-startup failure.
+104. Describe a complete basic HDFS practical workflow.
+105. Define MapReduce.
+106. Why is distributed processing required for Big Data?
+107. What is a key–value pair?
+108. Explain the role of the Mapper.
+109. Explain the role of the Reducer.
+110. What happens during shuffle and sort?
+111. Explain the Word Count problem using MapReduce.
+112. Write pseudocode for the Word Count Mapper.
+113. Write pseudocode for the Word Count Reducer.
+114. What is data locality?
+115. Explain the relationship between HDFS and MapReduce.
+116. What is a map-only job?
+117. What is the role of a Partitioner?
+118. What is a Combiner?
+119. Differentiate a Combiner and a Reducer.
+120. Why can a Combiner reduce network traffic?
+121. Why should a MapReduce program not depend on the Combiner being executed?
+122. How does MapReduce provide fault tolerance?
+123. List the major advantages of MapReduce.
+124. Explain the limitations of traditional MapReduce.
+125. Why is MapReduce described as a batch-processing framework?
+126. Explain the complete MapReduce execution pipeline.
+127. What is InputFormat?
+128. What is an InputSplit?
+129. Differentiate an HDFS block and an InputSplit.
+130. What is the purpose of a RecordReader?
+131. What happens to Mapper output before shuffle?
+132. What is spilling?
+133. Explain the role of the Combiner.
+134. Explain the role of the Partitioner.
+135. Why must all identical keys reach the same Reducer?
+136. Explain the shuffle phase.
+137. What happens during sort and grouping?
+138. What is OutputFormat?
+139. Why may a MapReduce job produce multiple output files?
+140. Define YARN.
+141. Why was YARN introduced?
+142. Explain the role of the ResourceManager.
+143. Explain the role of the NodeManager.
+144. Explain the role of the ApplicationMaster.
+145. What is a YARN container?
+146. Explain the complete YARN application-execution flow.
+147. Differentiate ResourceManager and ApplicationMaster.
+148. Differentiate NameNode and ResourceManager.
+149. Differentiate DataNode and NodeManager.
+150. Explain node-local and rack-local execution.
+151. What is the role of the YARN Scheduler?
+152. Compare Hadoop 1.x and Hadoop 2.x architectures.
+153. Why did YARN improve Hadoop scalability?
+154. Explain how MapReduce executes on top of YARN.
